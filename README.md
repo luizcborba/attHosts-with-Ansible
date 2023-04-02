@@ -1,2 +1,2 @@
 # attHosts-with-Ansible
-host atualization with lists and ansible
+host actualization with lists and ansible
