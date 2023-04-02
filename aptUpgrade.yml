@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: true
+  vars_prompt:
+    - name: "ansible_become_pass"
+      prompt: "Informe a senha do sudo:"
+      private: yes
+  tasks:
+    - name: Executar apt upgrade
+      shell: apt-get upgrade -y
